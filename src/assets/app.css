@@ -1,0 +1,37 @@
+@import 'mirotone/dist/styles.css';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+#root {
+  overflow: auto;
+  padding: var(--space-medium);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+	font-family: monospace;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+table.blackwhite tr:nth-child(even) {
+	background-color: #dddddd;
+}
